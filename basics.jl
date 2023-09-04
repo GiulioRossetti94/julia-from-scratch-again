@@ -65,3 +65,8 @@ end
 
 f(a,b) = a + b + 1
 
+
+# restrict inputs
+
+ffloat(x::Float64) = x / 2
+println(ffloat(3.5))
